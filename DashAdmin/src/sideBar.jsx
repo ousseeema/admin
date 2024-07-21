@@ -1,8 +1,8 @@
 import React from "react";
-import {BsCart3, BsPersonFill, BsTruck, BsFileEarmarkTextFill, BsSpeedometer2, BsEnvelopeFill } from 'react-icons/bs'
+import { BsPersonFill, BsTruck, BsFileEarmarkTextFill, BsSpeedometer2, BsEnvelopeFill, BsGearFill  } from 'react-icons/bs'
 function SideBar() {
   return(
-    <aside>
+    <aside id = "sidebar">
       <div className="sidebar-title">
         <div className="sidebar-brand">
             TransMobile
@@ -46,6 +46,11 @@ function SideBar() {
         <li className="sidebar-list-item">
           <a href="">
             <BsFileEarmarkTextFill  className="icon"/> Trans Reports
+          </a>
+        </li>
+        <li className="sidebar-list-item">
+          <a href="">
+            <BsGearFill  className="icon"/> Settings
           </a>
         </li>
 
