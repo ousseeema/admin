@@ -144,19 +144,31 @@ body {
 }
 
 .card:first-child {
-  background-color: #2962ff;
+  background-color: #2E236C;
 }
 
 .card:nth-child(2) {
-  background-color: #ff6d00;
+  background-color: #D0B8A8;
 }
 
 .card:nth-child(3) {
-  background-color: #2e7d32;
+  background-color: #677D6A;
 }
 
 .card:nth-child(4) {
-  background-color: #d50000;
+  background-color: #6EACDA;
+}
+.card:nth-child(5) {
+  background-color: #B692C2;
+}
+.card:nth-child(6) {
+  background-color: #6EACDA;
+}
+.card:nth-child(7) {
+  background-color: #73BBA3;
+}
+.card:nth-child(8) {
+  background-color: #D6BD98;
 }
 
 .card-inner {
@@ -175,6 +187,12 @@ body {
   gap: 20px;
   margin-top: 60px;
   height: 300px;
+}
+.triangle-chart{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* End Main  */
