@@ -1,8 +1,8 @@
 import React from "react";
 import { BsPersonFill, BsTruck, BsFileEarmarkTextFill, BsSpeedometer2, BsEnvelopeFill, BsGearFill  } from 'react-icons/bs'
-function SideBar() {
+function SideBar({openSideBarToggle}) {
   return(
-    <aside id = "sidebar">
+    <aside id = "sidebar" className={openSideBarToggle? "sidebar-responsive":"" }>
       <div className="sidebar-title">
         <div className="sidebar-brand">
             TransMobile
